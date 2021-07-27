@@ -1,46 +1,69 @@
-# Getting Started with Create React App
+# Technical Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+#### Timeframe
 
-In the project directory, you can run:
+The assignment should take around 4 hours. You’re welcome to take as much time as you want,
+but don’t feel obliged to finish it if you’re not able to complete it within the timeframe.
+Approach
+The aim of this assignment is to evaluate the basic technical competence you’ll require for this
+position.
 
-### `yarn start`
+- For the frontend implementation you need to use React or an equivalent library.
+- Feel free to make use of your preferred styling approach (regular CSS, CSS-in-JS, Sass
+  etc.), but do ensure that you make use of custom styles.
+- There’s no need to create a fake backend for the data, you can just copy-paste the JSON
+  data and import it directly.
+- Your work must be your own, and should be completed unassisted. Feel free, though, to
+  search the internet to look up any content.
+- Communicate your thinking as much as possible. Add a README to communicate how to
+  run your solutions and any relevant notes, for example, any extra thoughts on the tasks or
+  how you structured your submissions.
+- If you are stuck or are taking too much time, use your discretion to implement what is
+  important to the task at hand, and write out your challenges in the README.
+  Background
+  On the OfferZen platform, companies reach out to candidates directly with upfront salary
+  expectations. We call this an interview request. A single company can have a few staff members
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+who send the first interview request and they can reach out to many candidates (developers who
+are currently looking for a job) across many roles that company may be hiring for.
+In the tasks that follow, you’ll be implementing designs that staff members at a company use to
+manage and attend to interview requests.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Tasks
+The following exercise involves creating a new single page app (SPA) in order to implement the
+provided UI designs and functional requirements.
+Files
 
-### `yarn test`
+- Designs – the UI designs on a Figma board
+- Data – JSON array containing the test interview request data
+  Task A: Basic UI
+- Create a SPA in React
+- Implement the UI designs as shown in Figure 1
+- Use the data from the interviewRequests.json file to render the view
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Figure 1
 
-### `yarn build`
+Task B: Searching
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Add a filter bar as shown in Figure 2
+- The search filter should allow you to search by candidate name
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Figure 2
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Task C: Archiving
 
-### `yarn eject`
+- Add a column for the actions as shown in Figure 3
+- You should be able to archive and unarchive an interview request with the button in the
+  action column
+- Toggling the Show archived checkbox should show/hide archived interviews
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Figure 3
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Task D: Questions
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- How long did this assignment take you and where did you spend your time?
+- What would you do differently or improve in your solution?
+- Do you have any feedback on this assignment? For example: What did you enjoy? What
+  could be better? Which aspects were unclear?

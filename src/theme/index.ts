@@ -1,0 +1,81 @@
+import { theme as chakraTheme } from "@chakra-ui/core";
+import images from "./images";
+
+const theme = {
+  ...chakraTheme,
+  fonts: {
+    body: "Roboto, sans-serif",
+    mono: "Roboto, sans-serif",
+    heading: "Roboto, sans-serif",
+  },
+  colors: {
+    ...chakraTheme.colors,
+    google: {
+      50: "#FF5E57",
+      100: "#FF5E57",
+      200: "#FF5E57",
+      300: "#FF5E57",
+      400: "#FF5E57",
+      500: "#FF5E57",
+    },
+    brand: {
+      50: "#343952",
+      100: "#48BB78",
+      200: "#737373",
+      300: "#2C6734",
+      400: "#2C6734",
+      500: "#2C6734",
+      600: "#201418",
+      700: "#201418",
+      800: "#201418",
+      900: "#201418",
+    },
+    accent: {
+      50: "#fff7db",
+      100: "#ffe5ae",
+      200: "#fdd57f",
+      300: "#fbc44e",
+      400: "#fab31f",
+      500: "#FAB423",
+      600: "#af7700",
+      700: "#7e5500",
+      800: "#4c3300",
+      900: "#1d1000",
+    },
+    success: {
+      50: "#e3fbee",
+      100: "#c3ebd7",
+      200: "#a0dcbf",
+      300: "#7ccda7",
+      400: "#59bf8e",
+      500: "#40a674",
+      600: "#30815a",
+      700: "#205c40",
+      800: "#0e3825",
+      900: "#001509",
+    },
+    text: {
+      50: "rgba(0,0,0,0.45)",
+      100: "rgba(0,0,0,0.65)",
+      200: "#313131",
+      300: "#313131",
+      400: "#000000",
+      500: "#000000",
+      700: "#000000",
+      800: "#000000",
+      900: "#000000",
+    },
+    link: {
+      50: "#2E5BFF",
+      100: "#2E5BFF",
+      200: "#2E5BFF",
+      300: "#2E5BFF",
+      400: "#2E5BFF",
+      500: "#2E5BFF",
+    },
+  },
+  boxShadow: "0 0 .2rem rgba(0,0,0,0.1)",
+  gridGutter: 1,
+};
+
+export { theme, images };
