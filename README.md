@@ -63,7 +63,7 @@ Figure 3
 
 Task D: Questions
 
-- How long did this assignment take you and where did you spend your time?
-- What would you do differently or improve in your solution?
+- How long did this assignment take you and where did you spend your time? -> About 6 hours
+- What would you do differently or improve in your solution? -> Probably consume a real REST/Graphql API
 - Do you have any feedback on this assignment? For example: What did you enjoy? What
-  could be better? Which aspects were unclear?
+  could be better? Which aspects were unclear? -> Noticed that the data didn't have an id property. I really enjoyed the overall challenge though.
